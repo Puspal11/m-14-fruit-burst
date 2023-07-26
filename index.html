@@ -147,9 +147,9 @@
         </div>
       </div>
     </section>
-    <!-- banner 2 -->
-    <section>
-      <div class="flex justify-between mt-8">
+    <!-- banner 2 deals of the day -->
+    <section class="my-12">
+      <div class="flex justify-between my-12">
         <div class="">
           <h3 class="font-extrabold text-5xl">Deal of the day</h3>
           <p class="font-medium text-base pt-2">Contrary to popular belief, is not simply random text. It has roots in a
@@ -182,8 +182,9 @@
           </div>
         </div>
       </div>
+      <!-- modal 1 deals of the day -->
+      <!-- fruit 6 -->
       <div class="flex gap-4">
-        <!-- modal 1 -->
         <div class="card w-96 bg-base-100 border-solid border-stone-400 shadow-xl">
           <figure class="px-center pt-10">
             <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -201,14 +202,14 @@
             </div>
             <div class="grid rounded-6">
               <!-- Open the modal using ID.showModal() method -->
-              <div class="w-150 h-150">
-                <button class="hover text-[#F85559]" onclick="my_modal_5.showModal()">Details</button>
-                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+              <div class="w-96">
+                <button class="hover text-[#F85559]" onclick="my_modal_1.showModal(my_modal_1)">Details</button>
+                <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle">
                   <form method="dialog" class="modal-box items-center ">
                     <div class="">
-                      <img class="items-center" src="images/fruit6.png" alt="">
+                      <img class="items-center justify-center" src="images/fruit6.png" alt="">
                       <h3 class="font-extrabold text-4xl">Red Dragon</h3>
-                      <p class="p6-4 ">Professional employees are there for you to pick the most amazing and fresh
+                      <p class="p6-4 ">Professional employees are there for you to pick the <br> most amazing and fresh
                         fruits.
                       </p>
                     </div>
@@ -231,7 +232,7 @@
             </div>
           </div>
         </div>
-        <!-- fruit 6 -->
+        <!-- fruit 7 -->
         <div class="card w-96 bg-base-100 border-solid border-stone-400 shadow-xl">
           <figure class="px-center pt-10">
             <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
@@ -250,8 +251,8 @@
             <div class="grid rounded-6">
               <!-- Open the modal using ID.showModal() method -->
               <div class="w-150 h-150">
-                <button class="hover text-[#F85559]" onclick="my_modal_5.showModal()">Details</button>
-                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <button class="hover text-[#F85559]" onclick="my_modal_2.showModal(my_modal_2)">Details</button>
+                <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
                   <form method="dialog" class="modal-box items-center ">
                     <div class="">
                       <img class="items-center" src="images/fruit7.png" alt="">
@@ -298,8 +299,8 @@
             <div class="grid rounded-6">
               <!-- Open the modal using ID.showModal() method -->
               <div class="w-150 h-150">
-                <button class="hover text-[#F85559]" onclick="my_modal_5.showModal()">Details</button>
-                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <button class="hover text-[#F85559]" onclick="my_modal_3.showModal(my_modal_3)">Details</button>
+                <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
                   <form method="dialog" class="modal-box items-center ">
                     <div class="">
                       <img class="items-center" src="images/fruit8.png" alt="">
@@ -346,8 +347,8 @@
             <div class="grid rounded-6">
               <!-- Open the modal using ID.showModal() method -->
               <div class="w-150 h-150">
-                <button class="hover text-[#F85559]" onclick="my_modal_5.showModal()">Details</button>
-                <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <button class="hover text-[#F85559]" onclick="my_modal_4.showModal()">Details</button>
+                <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
                   <form method="dialog" class="modal-box items-center ">
                     <div class="">
                       <img class="items-center" src="images/fruit9.png" alt="">
@@ -383,7 +384,7 @@
     </section>
     <!-- banner 3 Team section-->
     <section class="w-full h-auto">
-      <div class="hero min-h-screen rounded-lg " style="background-image: url(images/team.png);">
+      <div class="hero min-h-screen rounded-lg w-full my-12 " style="background-image: url(images/team.png);">
         <div class="hero-overlay bg-opacity-70"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md">
@@ -392,7 +393,7 @@
               a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
         </div>
-        <div class="flex justify-evenly">
+        <div class="flex justify-evenly gap-24">
           <div>
             <img src="images/member1.png" alt="">
             <h4 class="font-bold text-2xl">Awlad Hossain</h4>
@@ -437,10 +438,11 @@
       </div>
     </section>
     <!-- start of banner why to choose -->
-    <section class="w-full h-200 mt-8">
-      <div class="grid-flow-col items-center">
-        <h2 class="font font-extrabold font-5xl items-center">Why Choose Us</h2>
-        <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature
+    <section class="w-full h-auto my-8">
+      <div class="grid text-center items-center justify-center pt-10">
+        <h2 class="font-5xl font-extrabold">Why Choose Us</h2>
+        <p class="font-madium text-base">Contrary to popular belief, is not simply random text. It has roots in a piece
+          of classical <br>Latin literature
           from 45 BC, making it over 2000 years old.</p>
       </div>
       <div class="grid grid-flow-col pt-20">
@@ -448,8 +450,9 @@
           <div class="flex items-center gap-8">
             <i class="fa-solid fa-people-group"></i>
             <div>
-              <h2 class="font-bold text-base underline">Dedicated Team</h2>
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <h2 class="font-bold text-base ">Dedicated Team</h2>
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
 
           </div>
@@ -457,8 +460,9 @@
             <i class="fa-solid fa-heart-circle-check gap-8 "></i>
             <div>
               <h2 class="font-bold text-base">Fresh is Best</h2>
-              
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
 
           </div>
@@ -466,7 +470,8 @@
             <i class="fa-solid fa-gift"></i>
             <div>
               <h2 class="font-bold text-base">Gift Certificates</h2>
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
           </div>
 
@@ -479,7 +484,8 @@
           <div class="flex items-center text-right gap-8">
             <div>
               <h2 class="font-bold text-base">Integrated Supplier</h2>
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
 
             <i class="fa-solid fa-parachute-box"></i>
@@ -487,14 +493,16 @@
           <div class="flex items-center text-right gap-8 pt-10">
             <div>
               <h2 class="font-bold text-base">Sustainable Practice</h2>
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
             <i class="fa-solid fa-ice-cream"></i>
           </div>
           <div class="flex items-center text-right gap-8 pt-10">
             <div>
               <h2 class="font-bold text-base">The Benefits Only</h2>
-              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-xs font-medium">Professional employees are there for you to pick the most amazing and fresh
+                fruits.</p>
             </div>
 
             <i class="fa-regular fa-thumbs-up rounded-full bg-orange-400 w-6 h-6"></i>
@@ -504,10 +512,35 @@
       </div>
     </section>
   </main>
-  <footer>
-
+  <footer class="footer footer-center bg-black text-primary-content w-full h-auto">
+    <div>
+      <div class="gap-4">
+        <div class="flex items-center">
+          <img src="images/logo.png" />
+          <p class="text-white text-center text-4xl font-bold">Fruits Burst</p>
+        </div>
+      </div>
+      <div class="flex justify-evenly pl-14">
+        <ul class="flex gap-8 text-white font-medium text-lg -sm:hidden">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">All Fruits</a></li>
+          <li><a href="">Support</a></li>
+          <li><a href="">My Account</a></li>
+        </ul>
+      </div>
+    </div> 
+    <div>
+      <div class="grid grid-flow-col gap-4 ">
+        <i class="fa-brands fa-twitter w-24 h-24"></i>
+        <i class="fa-brands fa-facebook w-24 h-24"></i>
+        <i class="fa-brands fa-youtube w-24 h-24"></i>
+        <i class="fa-brands fa-linkedin w-24 h-24"></i>
+        <i class="fa-brands fa-apple w-24 h-24"></i>
+      </div>
+    </div>
   </footer>
-
 </body>
 
 </html>
